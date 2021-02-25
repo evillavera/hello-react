@@ -1,6 +1,6 @@
 function Comments(props) {
     return (
-        <div style = {{backgroundColor:'purple', height: '250pt'}}>
+        <div style = {{backgroundColor:'purple', height: '200pt'}}>
             <h5 style={{marginBottom: 0}}>Comments</h5>
             <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
                 <div>
