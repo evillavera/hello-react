@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1,h2,h3,h4,h5 {
+  margin-top: 0pt;
+}
+
+.header {
+  background-color: aqua;
+  text-align: center;
+  margin: 0pt;
+  padding-top: 10pt;
+  height: 50pt;
+  align-content: center;
+  font-size: 36pt;
+  /* font-family: ; */
+}
+
+.title {
+  /* background-color: red; */
+  background-image: url('./img/MonkaSSS.jpg');
+  height: 400pt;
+}
+
+.title-control {
+  text-align: left;
+}
+
+.title-info-comments{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  height: 200pt;
+}
+
+.info-box{
+  float: left;
+  padding-left: 30pt;
+}
+
+.info-map{
+  width: 60%;
+  height: 80%;
+}
+
+.info-message{
+  padding-right: 30%;
+}
+
+.comments-image{
+  width:50%;
+  height:50%;
+  padding:0;
+}
+
+.comments-center-div{
+  text-align: center;
+}
+
+.comments-button{
+  size: auto;
+  display: inline-block;
+}
