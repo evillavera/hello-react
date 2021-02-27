@@ -9,6 +9,7 @@ import CommentForm from './components/CommentForm.js'
 import monka from './img/MonkaSSS.jpg'
 import map from './img/map.png'
 import './App.css';
+import {Button} from '@material-ui/core'
 
 function App() {
   const [showAddComment, setShowAddComment] = useState(false)
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className=''>
       <Header />
+      <Button variant="contained"> What's Up </Button>
       <Title />
       <Info mapInfo={map}/>
       <Comments onShow={() => setShowAddComment(!showAddComment)}
