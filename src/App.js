@@ -7,9 +7,12 @@ import Info from './components/Info.js'
 import Comments from './components/Comments.js'
 import CommentForm from './components/CommentForm.js'
 import monka from './img/MonkaSSS.jpg'
+import restaurant_pic from './img/Restaurant_Pic.png'
 import map from './img/map.png'
 import './App.css';
 import {Button} from '@material-ui/core'
+
+import ClosureInfo from './components/Closure_Info.js'
 
 function App() {
   const [showAddComment, setShowAddComment] = useState(false)
@@ -23,6 +26,7 @@ function App() {
       <Comments onShow={() => setShowAddComment(!showAddComment)}
           showAddComment={showAddComment} dog = {dog}/>
       {showAddComment && <CommentForm />}
+      <ClosureInfo restaurant_pic={restaurant_pic} mapInfo={map}/>
     </div>  
   );
 }
